@@ -11,15 +11,15 @@
 4.components 是组件区域
 
   4.1 DownloadSearch 下载与搜索
-  
+
   4.2 FourOrSixLattice 四格或六格组件
-  
+
   4.3 NavBottom 是底部浮动导航
-  
+
   4.4 NineLattice 是九宫格
-  
+
   4.5 Recommend 是名店,猜你喜欢,两格商品列表
-  
+
 5.views 是主要页面，目录首页
 
 6.App.vue 是所有vue页面的总页，是导航页
@@ -33,3 +33,8 @@
 dist --- npm run build 打包后的文件
 
 plugins --- 是本地插件的目录，目前不建议使用，是vue3的新功能，没有研究透
+
+----------Member List------------------------------
+
+1. qslWeb
+2. Xiaolitongxue
