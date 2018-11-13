@@ -53,7 +53,7 @@ import FastNew from '../components/FastNew/index'
 export default {
     data(){
         return{
-            indexDatas: require('../assets/json/index'),
+            indexDatas: require('../assets/json/index.json'),
             //九宫格每格标题的颜色
             colors:[],
             //指定组件特殊元素

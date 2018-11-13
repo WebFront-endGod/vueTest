@@ -1,12 +1,12 @@
 <template>
     <div>
-        购物车
+        <input type="text" placeholder="请随顺输入">
     </div>
 </template>
 
 <script>
     export default {
-
+        
     }
 </script>
 

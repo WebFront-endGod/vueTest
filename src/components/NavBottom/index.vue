@@ -4,7 +4,7 @@
             <router-link tag="li" to="/">首页</router-link>
             <router-link tag="li" to="/assortment">分类</router-link>
             <router-link tag="li" to="/shoppingCart">购物车</router-link>
-            <router-link tag="li" to="/myMall">我的商城</router-link>
+            <router-link tag="li" to="/demoss">我的商城</router-link>
         </ul>
     </section>
 </template>

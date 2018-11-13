@@ -1,12 +1,12 @@
 import Vue from 'vue';
 // import './plugins/axios'
-import Lodash from 'lodash';
+// import Lodash from 'lodash';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import App from './App.vue';
 import router from './router';
 import 'swiper/dist/css/swiper.css';
 
-Vue.prototype._ = Lodash;
+// Vue.prototype._ = Lodash;
 Vue.config.productionTip = false;
 Vue.use(VueAwesomeSwiper);
 
@@ -17,3 +17,10 @@ new Vue({
   router,
   render: h => h(App),
 }).$mount('#app');
+
+
+// 全局自定义按键
+Vue.config.keyCoders = {
+  a: 65,
+  f1: 112,
+} 
